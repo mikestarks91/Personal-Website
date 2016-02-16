@@ -1,0 +1,36 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: block;
+	font: 13px/1.5 Arial,Helvetica,sans-serif;
+}
+
+header {
+	background-color: #2eb82e;
+	padding: 10px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	position: relative;
+	height: 94px;
+}
+
+h1 {
+	position: static;
+	width: auto;
+	margin: 0;
+	text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+	header {
+		height: 85px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	header {
+		height: auto;
+	}
+}
